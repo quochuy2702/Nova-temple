@@ -1,0 +1,319 @@
+body {
+box-sizing: border-box;
+	 margin: 0;
+    padding: 0;
+	font-family: "Montserrat", sans-serif;
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+		color: #17141f;
+		background-color: #fff;
+}
+
+.btn-primary {
+	padding: 0.4rem 1.5rem;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #5954CB!important;
+	border-color: #5954CB!important;
+}
+
+.section-padding-y {
+	padding: 104px 0;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 2.4rem;
+}
+
+h6 {
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #5954CB !important;
+}
+
+p {
+	color: #777 !important;
+}
+
+
+.navbar.active {
+	background: #fff;
+	padding-top: 1rem !important;
+	padding-bottom: 1rem !important;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+header #navbarSupport.active {
+	display: block;
+}
+
+header .nav-link {
+	color: #17141f;
+	font-weight: 600;
+}
+
+header .navbar-toggler {
+	border: 1px solid transparent;
+	font-size: 1rem;
+	font-weight: 900;
+}
+
+header .navbar-brand {
+
+}
+
+header .navbar-brand img {
+	width: 110px;
+}
+
+@media (max-width: 992px) {
+	#style-setting {
+		display: none;
+	}
+}
+
+.home {
+	background-image: url("https://demo.bootstraptemple.com/app-landing/img/banner-4.86a86274.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.home .font-weight-bold {
+	font-size: 3rem;
+	font-weight: 800;
+}
+
+.home-text {
+	margin: 24px 0;
+	color: #777;
+}
+
+.home-buttom a {
+	padding: 0.5rem 1.5rem;
+	font-size: 1rem;
+}
+
+.home-buttom i {
+	margin-right: 1rem;
+}
+
+.home .device-wrapper {
+	max-width: 300px;
+	width: 100%;
+}
+
+.home .device {
+	position: relative;
+	z-index: 1;
+	border-radius: 3rem;
+}
+
+.home .device img {
+	max-width: 100%;
+}
+
+.home .screen {
+	position: absolute;
+	top: 15px;
+		left: 5%;
+		width: 90%;
+		height: 93.49030471%;
+		border: 0px;
+		z-index: -1;
+		overflow: hidden;
+}
+
+.about {background-image: url("./service-bg.d0e67e81.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+#about h6 {
+	letter-spacing: 1px;
+}
+
+#about h2 {
+	font-size: 2.4rem;
+	font-weight: 600;
+}
+
+#about .card {
+	border: 0;
+	border-radius: 16px;
+}
+
+#about .card h3 {
+	margin: 24px 0;
+	font-weight: 600;
+}
+
+#about .card p {
+	font-size: 14px;
+	margin: 0;
+}
+
+#services {
+	padding: 104px 0;
+}
+
+#services .services-img img {
+	width: 100%;
+	padding: 0 3rem;
+}
+
+#testimonials {
+	background: url(./testimonials-bg.cc4a8da7.png) no-repeat;
+	background-position: left center;
+	background-size: 40% 100%;
+}
+
+.testimonials {
+	position: relative;
+	overflow: hidden;
+}
+
+.testimonials .swiper-pagination {
+	position: relative;
+}
+
+.testimonials .swiper-pagination span {
+	width: 10px;
+	height: 10px;
+	margin: 0 6px !important;
+}
+
+.testimonials .swiper-pagination-bullet-active {
+	background-color: #5954CB!important;
+}
+
+.testimonials-group_item .card::before {
+	content: '';
+	background: url(./pattern-2.1d3473f7.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.5;
+	border-radius: 3rem;
+}
+
+.testimonials-group_item.active {
+}
+
+.testimonials-img {
+	position: absolute;
+	top: calc(-3rem - 50px);
+	left: calc(50% - 50px);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	
+}
+
+.testimonials-img img {
+	display: block;
+	width: 100%;
+	border-radius: 100%;
+}
+
+.testimonials-img i {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	line-height: 32px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	background-color: #5954CB !important;
+}
+
+.testimonials .owl-dots {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	
+}
+
+.testimonials .owl-dot {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	padding: 5px;
+	margin: 0 8px;
+	border-radius: 50%;
+	background-color: #869791;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.testimonials .owl-dot.active {
+	background-color:#5954CB !important;
+	opacity: 1;
+}
+
+.arrow-btn {
+	position: fixed;
+	bottom: 1rem;
+	right: 15px;
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	border: 4px solid #cbc9ef;
+	border-radius: 100%;
+	background-color: #5954CB !important;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	z-index: 1030;
+}
+#style-setting {
+	position: fixed;
+	top: 120px;
+	width: 50px;
+	height: 40px;
+	background-color: #5954cb !important;
+	text-align: center;
+	border-radius: 0;
+	border: 0;
+	color: #fff;
+	z-index: 1030;
+}
+
+#style-setting i {
+	font-size: 28px;
+
+}
+
+footer::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 365px;
+	height: 325px;
+	background: url(./pattern-2.1d3473f7.png) no-repeat;;
+	z-index: -1;
+}
+
+footer img {
+	width: 110px;
+}
+
+.footer-link {
+	text-decoration: none;
+	color: #777;
+}
+
+.footer-link:hover {
+	color: #5954cb !important;
+}
